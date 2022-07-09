@@ -8,6 +8,8 @@
 ![image](https://user-images.githubusercontent.com/28990749/178123936-8157fb7a-1e18-4e46-b9ce-18c6d649e7e1.png)
 ![image](https://user-images.githubusercontent.com/28990749/178123945-d90b6733-9dd6-4ae2-927d-42d3fa349c27.png)
 
+[Presentation](https://docs.google.com/presentation/d/1oPLjGEVv9bla7QjRO2GodsN3ncAY2ycITsUgMHoy_Tw/edit?usp=sharing)
+
 ACOMPANHE O CATAPULTA: 
 
 🧩 Nossa Comunidade - https://discord.gg/2xycW5y9JQ
