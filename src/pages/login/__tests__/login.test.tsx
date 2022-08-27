@@ -21,19 +21,19 @@ test('it should be able to sign in', async () => {
 
   const {result, waitFor} = renderHook(() => useLoginViewModel());
 
-  await act(() => {
+  act(() => {
     result.current.setEmail(user.email);
   });
 
   await waitFor(() => result.current.email === user.email);
 
-  await act(() => {
+  act(() => {
     result.current.setPassword(pass);
   });
 
   await waitFor(() => result.current.password === pass);
 
-  await act(() => {
+  act(() => {
     result.current.onSubmit();
   });
 
@@ -61,19 +61,19 @@ test('it should break on sign in', async () => {
 
   const {result, waitFor} = renderHook(() => useLoginViewModel());
 
-  await act(() => {
+  act(() => {
     result.current.setEmail(email);
   });
 
   await waitFor(() => result.current.email === email);
 
-  await act(() => {
+  act(() => {
     result.current.setPassword(pass);
   });
 
   await waitFor(() => result.current.password === pass);
 
-  await act(() => {
+  act(() => {
     result.current.onSubmit();
   });
 
